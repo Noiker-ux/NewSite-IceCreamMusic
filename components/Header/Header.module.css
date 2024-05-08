@@ -1,0 +1,28 @@
+.header {
+	position: fixed;
+	width: 100%;
+	backdrop-filter: blur(50px);
+	z-index: 20;
+	color: var(--text-color);
+}
+.content {
+	display: flex;
+	align-items: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	padding: 10px 15px;
+	justify-content: space-between;
+	max-width: 1430px;
+	padding: 10px 15px;
+}
+.menu__list {
+	display: flex;
+	gap: 40px;
+}
+
+.header__logo {
+	width: 70px;
+	height: 70px;
+}

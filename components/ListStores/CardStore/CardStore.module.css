@@ -1,0 +1,12 @@
+.image {
+	object-fit: contain;
+	mix-blend-mode: exclusion;
+}
+
+.card {
+	border-radius: 20px;
+	padding: 3rem 4rem;
+	color: var(--text-color);
+	border: 1px solid var(--border-color);
+	background-color: var(--card-BG-color);
+}

@@ -1,0 +1,10 @@
+.faq {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+}
+.wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}

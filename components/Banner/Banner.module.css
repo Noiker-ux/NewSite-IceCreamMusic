@@ -1,0 +1,31 @@
+.banner {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem 3rem;
+	width: 100%;
+	align-items: center;
+	border-radius: 25px;
+	color: #fff;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.title {
+	font-size: 1.325rem;
+}
+
+.description {
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.href {
+	background-color: var(--primary-color);
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 10px;
+	border-radius: 5px;
+}

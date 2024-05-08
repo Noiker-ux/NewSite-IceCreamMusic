@@ -1,0 +1,10 @@
+.StatisticList {
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 100%;
+}
