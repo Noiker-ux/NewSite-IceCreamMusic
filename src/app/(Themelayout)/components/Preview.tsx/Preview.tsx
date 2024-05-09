@@ -5,7 +5,11 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 export const Preview = () => {
 	return (
-		<div className={style.preview__wrapper}>
+		<motion.div
+			className={style.preview__wrapper}
+			initial={{ opacity: 0, y: 60 }}
+			animate={{ opacity: 1, y: 0 }}
+			transition={{ duration: 1 }}>
 			<div className={style.text}>
 				<h1 className={style.title}>Все для артиста в одном месте</h1>
 				<p className={style.description}>
@@ -13,12 +17,15 @@ export const Preview = () => {
 					чтобы сделать вашу музыку заметной и доступной миллионам слушателей!
 				</p>
 				<div className={style.links}>
-					<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-						<Link className={style.login} href={'/'}>
+					<motion.div
+						className={style.log_wrap}
+						whileHover={{ scale: 1.05 }}
+						whileTap={{ scale: 0.95 }}>
+						<Link className={style.login} href={'https://lk.icecreammusic.ru/'}>
 							Вход в аккаунт
 						</Link>
 					</motion.div>
-					<Link className={style.more} href={'/'}>
+					<Link className={style.more} href={'https://lk.icecreammusic.ru/'}>
 						Узнать больше
 					</Link>
 				</div>
@@ -26,10 +33,11 @@ export const Preview = () => {
 			<img
 				style={{ objectFit: 'contain', maxWidth: '48rem' }}
 				src={'/novinki.png'}
+				className={style.image}
 				width={740}
 				height={740}
 				alt='Новинки'
 			/>
-		</div>
+		</motion.div>
 	);
 };

@@ -8,3 +8,8 @@
 	flex-direction: column;
 	gap: 80px;
 }
+@media screen and (max-width: 690px) {
+	.faq {
+		grid-template-columns: 1fr;
+	}
+}

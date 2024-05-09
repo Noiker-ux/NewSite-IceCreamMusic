@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
 import style from './page.module.css';
 
+export const metadata: Metadata = {
+	title: 'IceCreamMusic | Публичная оферта',
+	description:
+		'IceCreamMusic - Публичная оферта о заключении договора об оказании услуг',
+};
 export default function Home() {
 	return (
 		<main className={style.main}>

@@ -47,6 +47,11 @@ body {
 	padding: 6rem;
 	min-height: 100vh;
 }
+@media screen and (max-width: 1000px) {
+	.main {
+		padding: 2rem;
+	}
+}
 
 html,
 body,

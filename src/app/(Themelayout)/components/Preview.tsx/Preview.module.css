@@ -48,3 +48,41 @@
 	right: -30px;
 	top: 0;
 }
+
+@media screen and (max-width: 1400px) {
+	.title {
+		color: var(--text-color);
+		font-size: 2.3rem;
+		font-weight: 700;
+	}
+	.image {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.preview__wrapper {
+		flex-direction: column-reverse;
+	}
+	.image {
+		height: auto;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.links {
+		justify-content: center;
+	}
+	.text {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 530px) {
+	.links {
+		flex-direction: column;
+	}
+	.log_wrap,
+	.login {
+		display: block;
+		padding: 1rem 0;
+		width: 100%;
+	}
+}

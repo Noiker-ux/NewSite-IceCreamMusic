@@ -1,12 +1,17 @@
+'use client';
 import { Services } from '../../data/Services/Services';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ServiceItem } from './ServiceItem/ServiceItem';
 import style from './ServicesList.module.css';
-
+import { motion } from 'framer-motion';
 export const ServicesList = () => {
 	return (
-		<div className={style.container}>
+		<motion.div
+			transition={{ duration: 1 }}
+			initial={{ opacity: 0, y: 160 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			className={style.container}>
 			<div className={style.description}>
 				<Title>Наши услуги</Title>
 				<Subtitle>
@@ -32,6 +37,6 @@ export const ServicesList = () => {
 					/>
 				))}
 			</div>
-		</div>
+		</motion.div>
 	);
 };

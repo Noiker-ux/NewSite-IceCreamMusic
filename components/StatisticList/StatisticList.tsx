@@ -1,3 +1,5 @@
+'use client';
+import { motion } from 'framer-motion';
 import { Statistic } from '../../data/Statistics/Statistics';
 import { Title } from '../Title/Title';
 import { StatisticItem } from './StatisticItem/StatisticItem';
@@ -5,7 +7,11 @@ import style from './StatisticList.module.css';
 
 export const StatisticList = () => {
 	return (
-		<div className={style.wrapper}>
+		<motion.div
+			transition={{ duration: 1 }}
+			initial={{ opacity: 0, y: 160 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			className={style.wrapper}>
 			<Title>Наши цифры</Title>
 			<div className={style.StatisticList}>
 				{Statistic.map((StatisticElement) => (
@@ -16,6 +22,6 @@ export const StatisticList = () => {
 					/>
 				))}
 			</div>
-		</div>
+		</motion.div>
 	);
 };

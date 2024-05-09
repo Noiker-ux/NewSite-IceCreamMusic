@@ -1,12 +1,18 @@
+'use client';
 import { HowItWorks } from '../../data/HowItWorks/HowItWorks';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { HowItWorksItem } from './HowItWorksItem/HowItWorksItem';
 import style from './HowItWorksList.module.css';
+import { motion } from 'framer-motion';
 
 export const HowItWorksList = () => {
 	return (
-		<div className={style.container}>
+		<motion.div
+			className={style.container}
+			initial={{ opacity: 0, y: 160 }}
+			transition={{ duration: 0.6 }}
+			whileInView={{ opacity: 1, y: 0 }}>
 			<div className={style.desc}>
 				<Title>Как это работает?</Title>
 				<Subtitle>
@@ -24,6 +30,6 @@ export const HowItWorksList = () => {
 					/>
 				))}
 			</div>
-		</div>
+		</motion.div>
 	);
 };

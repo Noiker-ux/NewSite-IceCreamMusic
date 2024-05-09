@@ -1,12 +1,21 @@
 import { Banner } from '../../../../components/Banner/Banner';
 import { HowItWorksList } from '../../../../components/HowItWorksList/HowItWorksList';
-
 import { ListStores } from '../../../../components/ListStores/ListStores';
 import { ReviewList } from '../../../../components/ReviewList/ReviewList';
 import style from './page.module.css';
 import { BannerIntresting } from '../../../../data/BannerIntresting/BannerIntresting';
-
 import classNames from 'classnames';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'IceCreamMusic | Дистрибуция',
+	description: `
+		ЁIceCreamMusic - 	Дистрибуция музыки - это процесс распространения музыкальных
+		композиций и альбомов от исполнителей и музыкальных групп к
+		слушателям. В цифровую эпоху дистрибуция музыки в основном связана с
+		распространением аудиофайлов или потоковой передачей музыки через
+		интернет.`,
+};
 
 export default function Home() {
 	return (

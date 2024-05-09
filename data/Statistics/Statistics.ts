@@ -3,7 +3,7 @@ import IStatistic from './Statistics.interface';
 export const Statistic: IStatistic[] = [
 	{
 		label: 'Лет работы',
-		count: '2+',
+		count: '3 года',
 	},
 	{
 		label: 'Релизов выпущено',
@@ -11,10 +11,10 @@ export const Statistic: IStatistic[] = [
 	},
 	{
 		label: 'Пользователей',
-		count: '2,000+',
+		count: '800+',
 	},
 	{
 		label: 'Площадок',
-		count: '50+',
+		count: '50',
 	},
 ];

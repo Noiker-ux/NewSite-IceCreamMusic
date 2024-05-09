@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Banner } from '../../../../components/Banner/Banner';
 import { FAQ } from '../../../../components/FAQ/FAQ';
 import { ListStores } from '../../../../components/ListStores/ListStores';
@@ -5,6 +6,11 @@ import { ReviewList } from '../../../../components/ReviewList/ReviewList';
 import { BannerIntresting } from '../../../../data/BannerIntresting/BannerIntresting';
 import { FAQ_data } from '../../../../data/FAQ/FAQ';
 import style from './page.module.css';
+
+export const metadata: Metadata = {
+	title: 'IceCreamMusic | Вопросы',
+	description: 'IceCreamMusic - Часто задаваемые вопросы',
+};
 
 export default function Home() {
 	return (

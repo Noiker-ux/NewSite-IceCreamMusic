@@ -11,7 +11,7 @@ import { FAQ_data } from '../../../data/FAQ/FAQ';
 import { Metadata } from 'next';
 import { Preview } from './components/Preview.tsx/Preview';
 export const metadata: Metadata = {
-	title: 'IceCreamMusic',
+	title: 'IceCreamMusic | Главная',
 	description:
 		'IceCreamMusic - Управляйте своим творчеством, продажами и маркетингом в одном месте, чтобы сделать вашу музыку заметной и доступной миллионам слушателей!',
 };

@@ -24,3 +24,18 @@
 	flex-direction: column;
 	gap: 15px;
 }
+@media screen and (max-width: 1500px) {
+	.storesWrapper {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media screen and (max-width: 1124px) {
+	.storesWrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 760px) {
+	.storesWrapper {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,8 +1,10 @@
+'use client';
 import style from './CardStore.module.css';
 import IStore from '../../../data/Stores/Stores.interface';
+import { motion } from 'framer-motion';
 export const CardStore = ({ image, alt }: IStore) => {
 	return (
-		<div className={style.card}>
+		<motion.div className={style.card}>
 			<img
 				className={style.image}
 				alt={alt}
@@ -10,6 +12,6 @@ export const CardStore = ({ image, alt }: IStore) => {
 				width={225}
 				height={80}
 			/>
-		</div>
+		</motion.div>
 	);
 };

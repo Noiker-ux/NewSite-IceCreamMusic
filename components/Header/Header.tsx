@@ -35,7 +35,7 @@ export const Header = () => {
 				</nav>
 				<div className={style.addons}>
 					<ToggleTheme />
-					<Link href={'/'}>Вход в аккаунт</Link>
+					<Link href={'https://lk.icecreammusic.ru/'}>Вход в аккаунт</Link>
 				</div>
 			</div>
 		</header>

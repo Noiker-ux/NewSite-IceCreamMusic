@@ -19,3 +19,8 @@
 	font-size: 1.125rem;
 	color: rgb(156 163 175);
 }
+@media screen and (max-width: 700px) {
+	.StatistiicItem {
+		padding: 2rem 4rem;
+	}
+}

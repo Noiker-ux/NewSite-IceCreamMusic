@@ -26,3 +26,8 @@
 	line-height: 1.5rem;
 	color: var(--gray-color);
 }
+@media screen and (max-width: 960px) {
+	.card {
+		min-height: 200px;
+	}
+}

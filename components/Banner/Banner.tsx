@@ -19,7 +19,10 @@ export const Banner = ({
 				<h3 className={style.title}>{info.title}</h3>
 				<p className={style.description}>{info.description}</p>
 			</div>
-			<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+			<motion.div
+				className={style.href_wrap}
+				whileHover={{ scale: 1.05 }}
+				whileTap={{ scale: 0.95 }}>
 				<Link className={style.href} href={info.href}>
 					{info.hrefLabel}
 				</Link>

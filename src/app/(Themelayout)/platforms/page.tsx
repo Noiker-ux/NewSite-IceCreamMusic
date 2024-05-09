@@ -7,6 +7,13 @@ import { BannerIntresting } from '../../../../data/BannerIntresting/BannerIntres
 
 import { FAQ } from '../../../../components/FAQ/FAQ';
 import { FAQ_data } from '../../../../data/FAQ/FAQ';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'IceCreamMusic | Платформы',
+	description:
+		'IceCreamMusic - Основные площадки. Мы предоставляем большой выбор популярных площадок! Делись своим творчеством со всем миром и будь услышанным!',
+};
 
 export default function Home() {
 	return (

@@ -14,15 +14,15 @@ export const FooterData: IFooterLinks = {
 		{
 			title: 'Каталог',
 			block: [
-				{ label: 'Кабинет', href: '/' },
-				{ label: 'Аналитика', href: '/' },
-				{ label: 'Финансы', href: '/' },
-				{ label: 'Смарт-ссылка', href: '/' },
+				{ label: 'Кабинет', href: 'https://lk.icecreammusic.ru/' },
+				{ label: 'Аналитика', href: 'https://lk.icecreammusic.ru/' },
+				{ label: 'Финансы', href: 'https://lk.icecreammusic.ru/' },
+				{ label: 'Смарт-ссылка', href: 'https://lk.icecreammusic.ru/' },
 			],
 		},
 		{
 			title: 'Панель управления',
-			block: [{ label: 'Войти', href: '/' }],
+			block: [{ label: 'Войти', href: 'https://lk.icecreammusic.ru/' }],
 		},
 		{
 			title: 'Документы',

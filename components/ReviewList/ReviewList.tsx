@@ -1,12 +1,17 @@
+'use client';
 import { Reviews } from '../../data/Reviews/Reviews';
 import { Subtitle } from '../Subtitle/Subtitle';
 import { Title } from '../Title/Title';
 import { ReviewCard } from './ReviewCard/ReviewCard';
 import style from './ReviewList.module.css';
-
+import { motion } from 'framer-motion';
 export const ReviewList = () => {
 	return (
-		<div className={style.wrap}>
+		<motion.div
+			initial={{ opacity: 0, y: 160 }}
+			transition={{ duration: 0.6 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			className={style.wrap}>
 			<div className={style.text}>
 				<Title>Впечатления артистов</Title>
 				<Subtitle>Отзывы артистов о нашем сервисе</Subtitle>
@@ -21,6 +26,6 @@ export const ReviewList = () => {
 					/>
 				))}
 			</div>
-		</div>
+		</motion.div>
 	);
 };
