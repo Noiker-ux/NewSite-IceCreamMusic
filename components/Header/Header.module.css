@@ -4,6 +4,7 @@
 	backdrop-filter: blur(50px);
 	z-index: 20;
 	color: var(--text-color);
+	padding: 0rem 6rem;
 }
 .content {
 	display: flex;
@@ -12,10 +13,9 @@
 	top: 0;
 	width: 100%;
 
-	padding: 10px 15px;
 	justify-content: space-between;
 	max-width: 1430px;
-	padding: 10px 15px;
+	padding: 10px 0px;
 }
 .menu__list {
 	display: flex;
@@ -25,4 +25,10 @@
 .header__logo {
 	width: 70px;
 	height: 70px;
+}
+
+.addons {
+	display: flex;
+	align-items: center;
+	gap: 30px;
 }

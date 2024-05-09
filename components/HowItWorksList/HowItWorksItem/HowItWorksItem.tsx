@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import style from './HowItWorksItem.module.css';
 import IHowItWorks from '../../../data/HowItWorks/HowItWorks.interface';
 
@@ -10,7 +9,7 @@ export const HowItWorksItem = ({
 }: IHowItWorks) => {
 	return (
 		<div className={style.item}>
-			<Image
+			<img
 				className={style.icon}
 				src={icon}
 				alt={altIcon}

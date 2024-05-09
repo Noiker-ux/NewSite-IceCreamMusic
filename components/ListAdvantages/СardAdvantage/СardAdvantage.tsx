@@ -2,12 +2,11 @@
 import { motion } from 'framer-motion';
 import style from './СardAdvantage.module.css';
 import IСardAdvantage from './СardAdvanced.props';
-import Image from 'next/image';
 
 export const СardAdvantage = ({ data }: IСardAdvantage) => {
 	return (
 		<motion.div className={style.card} whileHover={{ y: -10 }}>
-			<Image
+			<img
 				className={style.image}
 				src={data.image}
 				alt={data.altImage}

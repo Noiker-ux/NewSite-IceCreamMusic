@@ -1,5 +1,3 @@
-import styles from './page.module.css';
-
 import { Banner } from '../../../components/Banner/Banner';
 import { BannerIntresting } from '../../../data/BannerIntresting/BannerIntresting';
 
@@ -11,6 +9,7 @@ import { StatisticList } from '../../../components/StatisticList/StatisticList';
 import { HowItWorksList } from '../../../components/HowItWorksList/HowItWorksList';
 import { FAQ_data } from '../../../data/FAQ/FAQ';
 import { Metadata } from 'next';
+import { Preview } from './components/Preview.tsx/Preview';
 export const metadata: Metadata = {
 	title: 'IceCreamMusic',
 	description:
@@ -19,7 +18,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
 	return (
-		<main className={styles.main}>
+		<main className='main'>
+			<Preview />
 			<HowItWorksList />
 			<ListAdvantages />
 			<ListStores />

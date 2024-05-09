@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import IService from '../../../data/Services/Service.interface';
 import style from './ServiceItem.module.css';
 import Link from 'next/link';
@@ -20,7 +19,7 @@ export const ServiceItem = ({
 	return (
 		<div className={style.card}>
 			<div className={style.card__header}>
-				<Image src={icon} alt={altIcon} width={32} height={32} />
+				<img src={icon} alt={altIcon} width={32} height={32} />
 				<div className={style.counter}>{countBuy}</div>
 			</div>
 			<div className={style.card__body}>

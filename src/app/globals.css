@@ -27,17 +27,26 @@
 
 body {
 	background-color: var(--background-color);
+	background-image: url('../../public/Background.png');
+	overflow-x: hidden;
+	backdrop-filter: blur(55px);
+	object-fit: contain;
 }
+
 .container {
 	max-width: 1630px;
 	color: var(--white-color);
 	padding: 0 15px;
 	margin: 0 auto;
 }
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 160px;
+	align-items: center;
+	padding: 6rem;
+	min-height: 100vh;
+}
 
 html,
 body,

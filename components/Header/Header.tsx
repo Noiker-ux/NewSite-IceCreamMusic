@@ -17,17 +17,17 @@ export const Header = () => {
 							</Link>
 						</li>
 						<li className={style.menu__item}>
-							<Link className={style.menu__link} href={'/'}>
+							<Link className={style.menu__link} href={'/distribution'}>
 								Дистрибуция
 							</Link>
 						</li>
 						<li className={style.menu__item}>
-							<Link className={style.menu__link} href={'/'}>
+							<Link className={style.menu__link} href={'/platforms'}>
 								Платформы
 							</Link>
 						</li>
 						<li className={style.menu__item}>
-							<Link className={style.menu__link} href={'/'}>
+							<Link className={style.menu__link} href={'/questions'}>
 								Вопросы
 							</Link>
 						</li>

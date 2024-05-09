@@ -7,7 +7,7 @@ export const FooterData: IFooterLinks = {
 			block: [
 				{ label: 'Главная', href: '/' },
 				{ label: 'Дистрибуция', href: '/distribution' },
-				{ label: 'Платформы', href: '/stores' },
+				{ label: 'Платформы', href: '/platforms' },
 				{ label: 'Вопросы', href: '/questions' },
 			],
 		},
@@ -15,9 +15,9 @@ export const FooterData: IFooterLinks = {
 			title: 'Каталог',
 			block: [
 				{ label: 'Кабинет', href: '/' },
-				{ label: 'Аналитика', href: '/distribution' },
-				{ label: 'Финансы', href: '/stores' },
-				{ label: 'Смарт-ссылка', href: '/questions' },
+				{ label: 'Аналитика', href: '/' },
+				{ label: 'Финансы', href: '/' },
+				{ label: 'Смарт-ссылка', href: '/' },
 			],
 		},
 		{
