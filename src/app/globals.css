@@ -37,6 +37,7 @@ body {
 	max-width: 1630px;
 	color: var(--white-color);
 	padding: 0 15px;
+	overflow: hidden;
 	margin: 0 auto;
 }
 .main {

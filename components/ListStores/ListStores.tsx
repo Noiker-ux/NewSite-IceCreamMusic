@@ -22,7 +22,11 @@ export const ListStores = () => {
 						initial={{ opacity: 0 }}
 						whileInView={{ opacity: 1 }}
 						key={store.alt}>
-						<CardStore alt={store.alt} image={store.image} />
+						<CardStore
+							alt={store.alt}
+							image={store.image}
+							alternativeImage={store.alternativeImage}
+						/>
 					</motion.div>
 				))}
 				<motion.div

@@ -8,8 +8,8 @@ import { FAQ_data } from '../../../../data/FAQ/FAQ';
 import style from './page.module.css';
 
 export const metadata: Metadata = {
-	title: 'IceCreamMusic | Вопросы',
-	description: 'IceCreamMusic - Часто задаваемые вопросы',
+	title: 'ICECREAMMUSIC | Вопросы',
+	description: 'ICECREAMMUSIC - Часто задаваемые вопросы',
 };
 
 export default function Home() {

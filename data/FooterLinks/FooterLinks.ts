@@ -26,10 +26,7 @@ export const FooterData: IFooterLinks = {
 		},
 		{
 			title: 'Документы',
-			block: [
-				{ label: 'Политика конфиденциальности', href: '/privacy' },
-				{ label: 'Публичная оферта', href: '/terms' },
-			],
+			block: [{ label: 'Публичная оферта', href: '/terms' }],
 		},
 	],
 };

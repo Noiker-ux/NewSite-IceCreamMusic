@@ -29,3 +29,17 @@
 
 	font-weight: bolder;
 }
+@media screen and (max-width: 790px) {
+	.block {
+		flex-direction: column;
+		padding-top: 20px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 590px) {
+	.title {
+		font-size: 2rem;
+	}
+}

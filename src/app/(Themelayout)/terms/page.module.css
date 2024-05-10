@@ -43,3 +43,11 @@
 	max-width: 1000px;
 	margin: 0 auto;
 }
+.h3 {
+	color: var(--text-color);
+}
+@media screen and (max-width: 460px) {
+	.title {
+		font-size: 2rem;
+	}
+}

@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import style from './page.module.css';
 
 export const metadata: Metadata = {
-	title: 'IceCreamMusic | Публичная оферта',
+	title: 'ICECREAMMUSIC | Публичная оферта',
 	description:
-		'IceCreamMusic - Публичная оферта о заключении договора об оказании услуг',
+		'ICECREAMMUSIC - Публичная оферта о заключении договора об оказании услуг',
 };
 export default function Home() {
 	return (
@@ -41,7 +41,7 @@ export default function Home() {
 					условий настоящей Оферты без каких-либо изъятий или ограничений на
 					условиях присоединения.
 				</p>
-				<h3>Термины и определения:</h3>
+				<h3 className={style.h3}>Термины и определения:</h3>
 				<p className={style.paragraph}>
 					Договор – текст настоящей Оферты с Приложениями, являющимися
 					неотъемлемой частью настоящей Оферты, акцептованный Заказчиком путем

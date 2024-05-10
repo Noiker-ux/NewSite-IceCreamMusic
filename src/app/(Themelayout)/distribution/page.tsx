@@ -8,9 +8,9 @@ import classNames from 'classnames';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'IceCreamMusic | Дистрибуция',
+	title: 'ICECREAMMUSIC | Дистрибуция',
 	description: `
-		ЁIceCreamMusic - 	Дистрибуция музыки - это процесс распространения музыкальных
+		ICECREAMMUSIC - Дистрибуция музыки - это процесс распространения музыкальных
 		композиций и альбомов от исполнителей и музыкальных групп к
 		слушателям. В цифровую эпоху дистрибуция музыки в основном связана с
 		распространением аудиофайлов или потоковой передачей музыки через

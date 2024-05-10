@@ -8,7 +8,7 @@ export const Logo = ({ className }: ILogo) => {
 		<Link href={'/'}>
 			<img
 				className={classNames(className, style.logo)}
-				alt='IceCreamMusic логотип'
+				alt='ICECREAMMUSIC логотип'
 				src={'/logo.png'}
 				width={100}
 				height={100}

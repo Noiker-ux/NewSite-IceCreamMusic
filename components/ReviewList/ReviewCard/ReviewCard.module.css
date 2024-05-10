@@ -4,7 +4,7 @@
 	color: var(--text-color);
 	border: 1px solid var(--border-color);
 	background-color: var(--card-BG-color);
-	box-shadow: 0 25px 50px -12px #1e293b;
+	box-shadow: 0 10px 20px -12px #1e293b;
 }
 .header {
 	display: flex;

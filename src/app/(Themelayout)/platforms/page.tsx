@@ -10,9 +10,9 @@ import { FAQ_data } from '../../../../data/FAQ/FAQ';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'IceCreamMusic | Платформы',
+	title: 'ICECREAMMUSIC | Платформы',
 	description:
-		'IceCreamMusic - Основные площадки. Мы предоставляем большой выбор популярных площадок! Делись своим творчеством со всем миром и будь услышанным!',
+		'ICECREAMMUSIC - Основные площадки. Мы предоставляем большой выбор популярных площадок! Делись своим творчеством со всем миром и будь услышанным!',
 };
 
 export default function Home() {
