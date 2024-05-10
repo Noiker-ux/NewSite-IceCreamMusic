@@ -48,7 +48,7 @@ export const Services: IService[] = [
 		countBuy: 417,
 		href: 'https://vk.com/icecreammusicru',
 		labelButton: 'Купить',
-		price: 1499,
+		price: 3399,
 		color: 'purple',
 		timeframe: 'навсегда',
 		listBenefit: [
